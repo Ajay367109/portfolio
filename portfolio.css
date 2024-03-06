@@ -1,0 +1,21 @@
+nav{
+    display:flex;
+    flex: row;
+
+}
+#navbar{
+    background-color: aquamarine;
+    display: block;
+    border-color: black;
+    padding: 1%;
+    border-color: black;
+    width: auto;
+    display: top always;
+    font-size: large;
+    font-display: rgb(255,0,0);
+
+
+}
+#navbar:hover{
+    background-color: cornflowerblue;
+}
