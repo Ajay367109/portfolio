@@ -1,0 +1,567 @@
+<!--index.html-->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0"> 
+    <title>My Portfolio</title> 
+    <link rel="stylesheet"
+        href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="portfolio1.css"> 
+    <link rel="stylesheet" href="portfolio2.css"> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+
+<body> 
+    <!-- Navbar header section -->
+    <header class="header"> 
+        <nav class="navbar"> 
+            <div class="logo"> 
+                <h2 class="logo-heading">Ajay Kumar</h2> 
+            </div> 
+            <div class="hamburger" id="hamburger"> 
+                <i class="fas fa-bars hamburger-icon"></i> 
+                <i class="fas fa-times cross-icon"></i> 
+            </div> 
+            <div class="menu"> 
+                <ul class="menu-list"> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#home"> 
+                            Home 
+                        </a> 
+                    </li> 
+                    <!--<li class="menu-list-items"> 
+                        <a class="links" href="#about"> 
+                            About 
+                        </a> 
+                    </li> -->
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#Skills"> 
+                            Skills
+                        </a> 
+                    </li> 
+                    
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#Experience"> 
+                            Experience 
+                        </a> 
+                    </li> 
+                    <li class="menu-list-items">
+                        <a href="#Certifications" class="links">Certifications</a>
+                    </li>
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#contact"> 
+                            Contact Me 
+                        </a> 
+                    </li> 
+                </ul> 
+            </div> 
+        </nav> 
+    </header> 
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero"> 
+        <div class="intro"> 
+            <div class="split left">
+                <div class="headings"> 
+                    <h3 class="greet-heading">Hello, I'm</h3> 
+                    <h1 class="my-heading">Ajay Kumar</h1> 
+                    <h4 class="sub-heading"> 
+                    A Java Developer with 3 years of Experience. 
+                    </h4> 
+                </div> 
+                <div class="intro-buttons"> 
+                    <!--<button class="btn common-btn">Hire Me</button>--> 
+                    <button class="btn ghost-btn"><a href="Ajay UB Resume.docx" download="">Get Resume</a></button> 
+                    
+                </div> 
+            </div>
+            
+            <div class="split right">
+                <h1 class="my-heading">About Me</h1> 
+                <div class="lead-para">
+                    <p >
+                        Over 3 years of Experience in Java Development, I design and develop RESTful APIs using Java and Spring Boot for a Large Scale Application, coupled with a dynamic UI built with HTML, CSS, and JavaScript. I implemented a Microservices architecture to boost scalability and integrated Kafka for real-time data processing. My tenure at Cognizant Technology Solutions involved creating responsive UIs with Bootstrap and deploying Microservice components on cloud platforms using AWS. 
+                    
+                        
+                    </p> 
+                    <p>
+                        Academically, I hold a Master of Science in Computer Science from the University of Bridgeport, where I served as a Graduate Assistant and deepened my understanding of C++ programming and signal modification techniques. My commitment to continuous learning is demonstrated by certifications from JPMorgan Chase, LinkedIn, Hacker Rank, and Free Code Camp, underscoring my proficiency in Java, Spring Boot, SQL, and responsive web design.
+                    
+                        
+                    </p> 
+                </div>
+                
+            </div>
+
+            
+        </div> 
+        
+    </section> 
+
+    
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="Skills"> 
+        <div class="portfolio-heading"> 
+            <h1 class="my-heading text-center">Skills</h1> 
+        </div> 
+        <div class="portfolio-content"> 
+            <div class="my-row"> 
+                <div class="my-col flip-card"> 
+                    <div class="flip-card-inner">
+                        <div class="my-card port-card flip-card-front"> 
+                            <div class="image"> 
+                                <img src="./images/web development.jpg"
+                                    alt="Web Development"> 
+                            </div> 
+                            <h3 class="greet-heading blue-text">Web Design</h3> 
+                            <p class="small-para blue-text">Designing</p> 
+                            <label for="file"></label>
+                            <progress id="file" value="90" max="100"></progress>
+                        </div> 
+                        <div class="flip-card-back">
+                            <p>Web Design</p>
+                            <p>Throughout my career, I have been deeply involved in web development, creating dynamic and responsive web applications. At Syntactech, I designed and developed RESTful APIs for an e-commerce platform using Java and Spring Boot, complemented by a user interface crafted with HTML, CSS, and JavaScript. Additionally, during my tenure at Cognizant, I built a dynamic User Interface leveraging HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="my-col flip-card"> 
+                    <div class="flip-card-inner">
+                        <div class="my-card port-card flip-card-front"> 
+                            <div class="image"> 
+                                <img src="./images/React.png"
+                                    alt="React"> 
+                            </div> 
+                            <h3 class="greet-heading blue-text"> 
+                                React 
+                            </h3> 
+                            <p class="small-para blue-text">Frontend Framework</p> 
+                            <label for="file"></label>
+                            <progress id="file" value="80" max="100"></progress>
+                        </div> 
+                        <div class="flip-card-back">
+                            <p>React:</p> 
+                            <p>My proficiency with React is evident from my work at Syntactech, where I developed a Single Page Application (SPA) using React, ensuring a seamless user experience for the e-commerce platform. Similarly, at Cognizant, I utilized React to design and develop dynamic user interfaces, enhancing the interactivity and responsiveness of the applications.</p>
+                        </div>
+
+                    </div>
+                    
+                </div> 
+                
+                <div class="my-col flip-card"> 
+                    <div class="flip-card-inner">
+                        <div class="my-card port-card flip-card-front"> 
+                            <div class="image"> 
+                                <img src="./images/java.png" alt="Java image"> 
+                            </div> 
+                            <h3 class="greet-heading blue-text">Java</h3> 
+                            <p class="small-para blue-text">Logic building</p> 
+                            <label for="file"></label>
+                            <progress id="file" value="90" max="100"></progress>
+                        </div> 
+                        <div class="flip-card-back">
+                            <p>Java:</p> 
+                            <p>Java has been a cornerstone of my development experience. At Syntactech and Cognizant, I used Java extensively to develop business logic, RESTful APIs, and Microservice components. I also employed Java in my personal projects, such as the Class Admission Portal and Payment Profile, to implement the backend logic and data processing functionalities.</p>
+                        </div>
+                    </div> 
+                    
+                </div> 
+                <div class="my-col flip-card"> 
+                    <div class="flip-card-inner">
+                        <div class="my-card port-card flip-card-front"> 
+                            <div class="image"> 
+                                <img src="./images/springboot.png"
+                                    alt="Content Writting Image"> 
+                            </div> 
+                            <h3 class="greet-heading blue-text"> 
+                                Spring Boot 
+                            </h3> 
+                            <p class="small-para blue-text">Backend Framework</p> 
+                            <label for="file"></label>
+                            <progress id="file" value="80" max="100"></progress>
+                        </div> 
+                        <div class="flip-card-back">
+                            <p>Spring Boot:</p>
+                            <p>Boot has been integral to my backend development. At Syntactech, I used Spring Boot to create scalable and efficient RESTful APIs and Microservices. My experience at Cognizant further solidified my expertise in Spring Boot as I developed various Microservice components and business logic for web applications.</p>
+                        </div>
+                    </div> 
+                    
+                </div> 
+            </div> 
+            
+            <div class="my-row"> 
+
+                
+                <div class="my-col flip-card"> 
+                    <div class="flip-card-inner">
+                        <div class="my-card port-card flip-card-front"> 
+                            <div class="image"> 
+                                <img src="./images/nodejs.png" alt="Java image"> 
+                            </div> 
+                            <h3 class="greet-heading blue-text">NodeJS</h3> 
+                            <p class="small-para blue-text">Logic building</p>
+                            <label for="file"></label>
+                            <progress id="file" value="60" max="100"></progress> 
+                        </div> 
+                        <div class="flip-card-back">
+                            <p>NodeJS:</p>
+                            <p>While my primary focus has been on Java, I have also utilized NodeJS in personal projects to develop backend services and APIs. This includes handling server-side logic and ensuring efficient communication between the client and server.</p>
+                        </div>
+                    </div> 
+                    
+                </div> 
+                <div class="my-col flip-card"> 
+                    <div class="flip-card-inner">
+                        <div class="my-card port-card flip-card-front"> 
+                            <div class="image"> 
+                                <img src="./images/sql.png"
+                                    alt="Wordpress Image"> 
+                            </div> 
+                            <h3 class="greet-heading blue-text"> Database </h3> 
+                            <p class="small-para blue-text">Database Management System 
+                            </p> 
+                            <label for="file"></label>
+                            <progress id="file" value="95" max="100"></progress>
+                        </div> 
+                        <div class="flip-card-back">
+                            <p>SQL:</p>
+                            <p>I have employed SQL extensively to manage and manipulate databases. At Syntactech, I generated short-term reports using SQL and utilized Hibernate for migration tasks. In my personal projects, I used JDBC for database communication and stored data in MySQL Workbench.</p>
+                        </div>
+                    </div> 
+                    
+                </div> 
+                <div class="my-col flip-card">
+                    <div class="flip-card-inner">
+                        <div class="my-card port-card flip-card-front"> 
+                            <div class="image"> 
+                                <img src="./images/kafka.png" alt="Kafka image"> 
+                            </div> 
+                            <h3 class="greet-heading blue-text">Apache Kafka</h3> 
+                            <p class="small-para blue-text">Messaging System</p>
+                            <label for="file"></label>
+                            <progress id="file" value="75" max="100"></progress> 
+                            
+                        </div> 
+                        <div class="flip-card-back">
+                            <p>Kafka: </p>
+                            <p>At Syntactech, I integrated Kafka to enable real-time data processing and communication between Microservices. This ensured efficient handling of data streams and improved the scalability and reliability of the application.</p>
+                        </div>
+                    </div> 
+                    
+                </div> 
+                <div class="my-col flip-card"> 
+                    <div class="flip-card-inner">
+                        <div class="my-card port-card flip-card-front"> 
+                            <div class="image"> 
+                                <img src="./images/aws.png"
+                                    alt="Video Editing Image"> 
+                            </div> 
+                            <h3 class="greet-heading blue-text"> 
+                                Amazon Web Services 
+                            </h3> 
+                            <p class="small-para blue-text">Cloud Computing</p> 
+                            <label for="file"></label>
+                            <progress id="file" value="75" max="100" >75%</progress>
+                        </div> 
+                        <div class="flip-card-back">
+                            <p>Amazon Web Services (AWS):</p>
+                            <p>My experience with AWS includes deploying applications on cloud platforms. At Cognizant, I published applications using AWS EC2, stored request information in S3 buckets, and leveraged other AWS services such as IAM and databases to ensure robust and scalable deployments.</p>
+                        </div>
+                    </div> 
+                    
+
+                </div> 
+                
+            </div> 
+            
+
+        </div> 
+    </section> 
+
+    
+
+    <!-- Services Section -->
+    <section class="services" id="Experience"> 
+        <div class="services-heading"> 
+            <h1 class="my-heading text-center">Experience & Projects</h1> 
+        </div> 
+        <div class="services-content"> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fa-solid fa-code"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">Java Developer</h3> 
+                        <h4 class="greet-heading blue-text">Company name: Syntactech</h4>
+                        <h4 class="greet-heading blue-text">Duration: Novovember 2023 - Present</h4>
+                        <p class="small-para"> 
+                            Designed and developed the RESTful APIs using Java and Spring Boot for an e-commerce platform and developed the UI with HTML, CSS, and JavaScript. Developed the Single Page Application (SPA) using React.The Jenkins pipelines are configured to automate the build, test, and reduce manual errors.
+                        </p> 
+                        <p class="small-para"> 
+                            To enable real time data processing and communication between Microservices we integrated the Kafka messaging system. Implemented the Microservices architecture to make the application more scalable.SQL is used to generate short-term reports from the application and hibernate will be used for migration.
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fas fa-chart-line"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                            Graduate Assistant 
+                        </h3> 
+                        <h4 class="greet-heading blue-text">Company: <strong>University of Bridgeport</strong></h4>
+                        <h4 class="greet-heading blue-text">Duration: April 2023 - December 2023</h4>
+                        <p class="small-para"> 
+                            Utilized the  C++ programming to implement large scale applications to build a robot with OOPs concepts. Additionally, I have implemented C/C++ programing to design the different types of signals in CCSTUDIO. Designed and developed the field of Signal Modification and Real Time audio Signal Modification.
+                        </p> 
+                        <p class="small-para"> 
+                            Here we extensively enhanced to build a Hardware Project with Arduino with different technologies. The whole project is about to implement the different signals generations and modifying the frequency of signals and this implemented with Object Oriented Design.
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fas fa-paint-brush"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">Program Analyst</h3> 
+                        <h4 class="greet-heading blue-text">Company: <strong>Cognizant Technology Solutions</strong></h4>
+                        <h4 class="greet-heading blue-text">Duration: January 2021 - March 2022</h4>
+                        <p class="small-para"> 
+                            Designed and developed a dynamic User Interface by using HTML, CSS, JavaScript, and React. To make this more responsive we utilized Bootstrap Framework.Implemented Java/J2EE, Spring Boot, Spring MVC, Spring Framework, and Maven to develop the business logic to the web application. 
+                        </p> 
+                        <p class="small-para"> 
+                            Designed the Microservice components by using Java 8, Spring Boot, and deployed them in Cloud platforms. Whenever the version is needed to control, we used Git and GitHub.Published the application using AWS EC2 local instance to internet. Stored the request information to S3 buckets. 
+
+                        </p> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fa-solid fa-school"></i>
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                            Project Title: Admission Portal 
+                        </h3> 
+                        <p class="small-para"> 
+                            The admission portal will help students to mark their presence in the class and throw out the required information for professor. Here they will upload and download the class information and given tasks in class. 
+                        </p> 
+                        <p class="small-para"> 
+                            Developed GUI interface is built with Reactive.js, HTML, CSS and designed with React Libraires. Developed the backend application using Java and Spring Boot. The generated data is transferred to MySQL Database by JDBC.
+
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fa-solid fa-money-bill-wave"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                            Project Title: Payment Profile 
+                        </h3> 
+                        <p class="small-para"> 
+                            This project is a two-step project. In first I have designed the web application and developed using both front-end and Backend technologies. Additionally, I have used JDBC to run the SQL commands in Maven Project. 
+                        </p> 
+                        <p class="small-para"> 
+                            In the second step, I have designed an RPA robot to orchestrate the process of an accountant. This robot will follow step-by-step orchestration and it will manage to settle the monthly salary payment for employees. 
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fa-solid fa-user-tie"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                            Project Title: Portfolio 
+                        </h3> 
+                        <p class="small-para"> 
+                            Designed and developed the web application using HTML, CSS and JavaScript. Utilized the Web APIs to contact between the user and server. To make sure this page more user friendly I have used media components in CSS.
+                        </p> 
+                        <p class="small-para"> 
+                            Deployed this Portfolio web application to GitHub and published this Application in GitHub pages and managing the version controls with Git. Designed a contact form using JavaScript to get a direct connection from the recruiters.
+                        </p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+
+    <!--Certification Section-->
+    <section class="projects" id="Certifications">
+        <div class="service-heading"><h1 class="my-heading text-center">Certifications</h1></div>
+        <div class="slider">
+            <div class="card slide" id="web-design">
+                <h1>I have certified in Web Desigin by FreeCodeCamp</h1>
+
+                <h3>Link: <a href="https://www.freecodecamp.org/certification/fcc579ed14d-b2a4-40b0-80e6-554f0e8043ca/responsive-web-design" target="_blank">Web Design Certificate.</a></h3>
+                <p></p>
+            </div>
+            <div class="card slide" id="java">
+                <h1>Certified in Java Programing from LikedIn</h1>
+                <h3>Link: <a href="https://www.linkedin.com/learning/certificates/be9ab5c0c95a609fa615472bc3e5ab18dfe659172ee689876b6610360a62ded4" target="_blank">Java certificate.</a></h3>
+                
+            </div>
+            <div class="card slide" id="sotware-engineer">
+                <h1>Certified in Software Engineer Simulation at JP Morgan Chase by Forage.</h1>
+                <h3>Link: <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_Ky3c2pCwbuz8uGbmc_1711222970234_completion_certificate.pdf" target="_blank">Software Engineer Simulation certificate.</a></h3>
+                
+            </div>
+            <div class="card slide" id="sql">
+                <h1>Certified in SQL by HackeRank.</h1>
+                <h3>Link: <a href="https://www.hackerrank.com/certificates/6ac63ab2938f" target="_blank">SQL Certificate</a></h3>
+                
+            </div>
+            <div class="card slide" id="agile">
+                <h1>Certified in Agile Methodologies from LinkedIn.</h1>
+                <h3>Link: <a href="https://www.linkedin.com/learning/certificates/a08f233944dc1d46744a885ad31d5c092fd157c9d97d4f9b0b5759c97419f923" target="_blank"> Agile Methodologies Certificate.</a></h3>
+                <p></p>
+            </div>
+            
+    
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+            
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact"> 
+        <div class="contact-heading"> 
+            <h1 class="my-heading text-center">Contact Me</h1> 
+        </div> 
+        <div class="contact-content"> 
+            <div class="contact-form-container"> 
+                <h1 class="greet-heading">Get In Touch</h1> 
+               
+                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="f8f5db01-3635-4d51-90d2-513e5945e172" />
+                    
+                    <input type="hidden" name="from_name" value="My Website" />
+                
+                    <div class="form-group-container">
+                      <div class="form-group">
+                        <input id="name" name="name" class="form-controls" placeholder="Your name" type="text" required/>
+                      </div>
+                      <div class="form-group">
+                        <input id="email" name="email" class="form-controls" placeholder="Your email" type="email" required/>
+                      </div>
+                      <div class="form-group">
+                        <input id="phone" name="phone" class="form-controls" placeholder="Your Mobile Number" type="text" required/>
+                      </div>
+                      <div class="form-group">
+                        
+                        <textarea class="form-controls" id="message" name="message" placeholder="Your message" required></textarea>
+                      </div>
+                    </div>
+                    <button class="form-btn btn common-btn" type="submit">Send Message</button>
+                  </form>
+            </div> 
+            <div class="contact-details"> 
+                <h1 class="greet-heading"><strong>My Contact Details</strong> </h1> 
+                <div class="details"> 
+                    <h5 class="contact-heading">EMAIL</h5> 
+                    <p class="contact-text">ajay11715802@gmail.com</p> 
+                </div> 
+                <div class="details"> 
+                    <h5 class="contact-heading">PHONE</h5> 
+                    <p class="contact-text">+1-4753120110</p> 
+                </div> 
+                
+                <div class="details"> 
+                    <h5 class="contact-heading">ADDRESS</h5> 
+                    <p class="contact-text">Bridgeport, CT, US</p> 
+                     
+                    
+                </div> 
+                <div class="intro-buttons"> 
+                    <!--<button class="btn common-btn">Hire Me</button>--> 
+                    <button class="btn ghost-btn"><a href="Ajay UB Resume.docx" download="">Get Resume</a></button> 
+                </div> 
+
+
+            </div> 
+        </div> 
+        
+    </section> 
+
+    
+
+    <!-- Footer section -->
+    <footer class="footer"> 
+        <div class="footer-content text-center"> 
+            <h4> 
+                Copyright © 2024 All rights reserved | 
+                This portfolio website is created by Ajay Kumar Gangineni. 
+            </h4> 
+            <div class="social-links"> 
+                <div class="footer-menu"> 
+                    <ul class="footer-menu-list"> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://www.facebook.com/gangineni.ajaykumar" target="_blank"> 
+                                <i class="fab fa-facebook-f"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://x.com/ajay_gangi71396" target="_blank"> 
+                                <i class="fab fa-twitter"></i> 
+                            </a> 
+                        </li> 
+                        <!--<li class="footer-list-items"> 
+                            <a class="footer-links" href="#"> 
+                                <i class="fab fa-instagram"></i> 
+                            </a> 
+                        </li> -->
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://www.linkedin.com/in/agang-1234567890g" target="_blank"> 
+                                <i class="fab fa-linkedin-in"></i> 
+                            </a> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+        </div> 
+    </footer> 
+
+    <script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"> 
+    </script> 
+    <script src="script.js"></script> 
+    <script src="index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+            Host : "smtp.gmail.com",
+            Username : "akgangineni@gmail.com",
+            Password : "Ajay1234@",
+            To : 'ajay11715802@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "Contact form enquiry",
+            Body : "And this is the body"
+
+        }).then( message => alert(message) );
+        }
+        
+    </script>
+</body> 
+
+</html>
